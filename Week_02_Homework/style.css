@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+BOX SIZING SETTING
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/*
+MY STYLE
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 38px;
+}
+
+h3.author {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header h1 {
+    font-weight: 800;
+    color: #fff;
+    padding: 32px 10% 2% 10%;
+    text-align: left;
+}
+
+section.hero {
+    height: 90vh;
+    background-image: url("images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.hero button {
+    background-color: #f9e42e;
+    color: #052f48;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+div.hero-copy h1 {
+    color: #fff;
+    text-align: center;
+    margin: 12% 9% 3% 9%;
+}
+
+section.benefits {
+    background-color: #efefee;
+    text-align: left;
+}
+
+section.benefits h2 {
+    color: #043048;
+    padding: 60px 10% 1% 10%;
+}
+
+section.benefits p {
+    color: #606060;
+    margin: 0 10% 0 10%;
+}
+
+section.benefits ul {
+    color: #606060;
+    padding: 18px 10% 70px 10%;
+}
+
+section.testimonial {
+    background-image: url("images/testimonial_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.testimonial h3 {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+div.quote {
+    display: inline-block;
+    text-align: center;
+    margin: 10%;
+}
+
+section.cta {
+    background-color: #f9e42e;
+}
+
+section.cta button {
+    background-color: #043049;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 44px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #121211;
+}
+
+footer h1 {
+    font-weight: 800;
+    color: #f9e42e;
+    padding: 70px 10% 64px 10%;
+}
+
+footer span {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+footer h4 {
+    color: #fff;
+    padding: 70px 10% 64px 10%;
+}
