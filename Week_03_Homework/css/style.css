@@ -1,0 +1,288 @@
+/* UNIVERSAL PAGE STYLES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #efefee;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+ul {
+    list-style-position: inside;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3899DA;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #888888;
+    background-color: #888888;
+}
+
+button {
+    padding: 15px 40px 17px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.page-wrap {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+/* NAVIGATION SECTION STYLES */
+
+nav {
+    height: 120px;
+    background-color: #043049;
+    position: relative;
+    margin: 0 auto;
+}
+
+#site-logo {
+    display: inline-block;
+    float: left;
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 34px; 
+    padding-left: calc(4% + 2px);
+    text-align: left;
+}
+
+#site-menu-icon {
+    display: none;
+    float: right;
+    max-width: 30px;
+    max-height: 30px;
+    padding-top: 39px;
+    margin-right: calc(4% + 3px);
+}
+
+ul.nav-items {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    padding-right: calc(4% + 3px);
+}
+
+ul.nav-items li {
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    padding-left: 28px;
+}
+
+nav a {
+    color: #f9e42e;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+
+
+
+/* MAIN CONTENT STYLES */
+
+main {
+    padding-bottom: 68px;
+}
+
+section.main-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 8px;
+    width: 67%;
+}
+
+section.side-column {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 46px;
+    margin-right: 4%;
+    width: 20%;
+}
+
+article {
+    text-align: left;
+    padding-top: 36px;
+}
+
+article h2 {
+    margin-bottom: 19px;
+    max-width: 580px;
+    color: #063048;
+}
+
+article img {
+    max-width: 100%;
+    margin-bottom: 19px;
+}
+
+article p {
+    max-width: 580px;
+    margin-bottom: 19px;
+    color: #606060;
+}
+
+article a {
+    display: block;
+    text-align: right;
+    color: #063048;
+    margin-bottom: 30px;
+}
+
+aside {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+aside h3 {
+    color: #043049;
+}
+
+aside ul {
+    margin-top: 4px;
+    line-height: 1.4;
+}
+
+aside p {
+    margin-top: 6px;
+    color: #606060;
+    line-height: 1.3;
+}
+
+aside a {
+    color: #063048;
+}
+
+a.categories {
+    font-weight: 200;
+    color: #606060;
+}
+
+aside a:hover {
+    color: #3899DA;
+}
+
+section.side-column img {
+    max-width: 100%;
+    margin-top: 9px;
+}
+
+
+
+/* CTA & FOOTER SECTION STYLES */
+
+section.cta {
+    background-color: #f9e42e;
+}
+
+section.cta button {
+    display: inline-block;
+    background-color: #043049;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+footer {
+    background-color: #121211;
+}
+
+footer h1 {
+    font-weight: 800;
+    color: #f9e42e;
+    padding: 70px 10% 64px 10%;
+}
+
+footer img {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+footer h4 {
+    color: #fff;
+    padding: 70px 10% 64px 10%;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 700px) {
+
+    section.side-column {
+        display: none;
+    }
+
+    section.main-column {
+        margin-left: 4%;
+        margin-right: 4%;
+        padding-top: 8px;
+        width: 91%;
+    }
+
+}
+
+@media all and (max-width: 590px) {
+
+    nav ul {
+        display: none;
+    }
+
+    #site-menu-icon {
+        display: inline-block;
+    }
+
+
+}
